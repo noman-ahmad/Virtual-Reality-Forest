@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Water.WaterBasic
     Assembly-CSharp.dll:
     - Battery
+    - BridgeManager
     - Dropping
     - Flash_Light
     - GazeInteraction
@@ -35,6 +36,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -82,6 +84,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11370}
     - Class: 114
+      Script: {instanceID: 11372}
+    - Class: 114
       Script: {instanceID: 11374}
     - Class: 114
       Script: {instanceID: 11376}
@@ -90,45 +94,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11382}
     - Class: 114
-      Script: {instanceID: 11856}
+      Script: {instanceID: 11522}
     - Class: 114
-      Script: {instanceID: 12144}
+      Script: {instanceID: 11858}
     - Class: 114
-      Script: {instanceID: 12614}
+      Script: {instanceID: 12146}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12210}
     - Class: 114
-      Script: {instanceID: 12904}
+      Script: {instanceID: 12618}
     - Class: 114
-      Script: {instanceID: 12948}
+      Script: {instanceID: 12888}
     - Class: 114
-      Script: {instanceID: 12972}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 13030}
+      Script: {instanceID: 12950}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 13148}
+      Script: {instanceID: 13032}
     - Class: 114
-      Script: {instanceID: 13172}
+      Script: {instanceID: 13146}
     - Class: 114
-      Script: {instanceID: 13218}
+      Script: {instanceID: 13150}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 13174}
     - Class: 114
-      Script: {instanceID: 13412}
+      Script: {instanceID: 13220}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13406}
     - Class: 114
-      Script: {instanceID: 13590}
+      Script: {instanceID: 13414}
     - Class: 114
-      Script: {instanceID: 13648}
+      Script: {instanceID: 13580}
     - Class: 114
-      Script: {instanceID: 13658}
+      Script: {instanceID: 13592}
     - Class: 114
-      Script: {instanceID: 31150}
+      Script: {instanceID: 13650}
     - Class: 114
-      Script: {instanceID: 80904}
+      Script: {instanceID: 13660}
+    - Class: 114
+      Script: {instanceID: 13752}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -280,6 +286,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Effects
     className: ParticleSystemMultiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 80775070392b9fdefd64739e9b991894
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BridgeManager
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -576,6 +588,12 @@ ScriptsOnlyBuild:
     className: Joystick
   - hash:
       serializedVersion: 2
+      Hash: 3d73a93feb5d56d41ee7966659a5cb22
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Holding
+  - hash:
+      serializedVersion: 2
       Hash: 4f631fd718256a8c69483c396671a274
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
@@ -760,12 +778,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Cameras
     className: FreeLookCam
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NewBehaviourScript
   - hash:
       serializedVersion: 2
       Hash: 2294ba4929e515b4b46046eff1f6b057
@@ -1284,6 +1296,12 @@ ScriptsOnlyBuild:
     className: PlatformerCharacter2D
   - hash:
       serializedVersion: 2
+      Hash: 1c2bb19cba83a1354eb64a582b37aef0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Dropping
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1294,18 +1312,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
-  - hash:
-      serializedVersion: 2
-      Hash: 3d73a93feb5d56d41ee7966659a5cb22
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Holding
-  - hash:
-      serializedVersion: 2
-      Hash: 1c2bb19cba83a1354eb64a582b37aef0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Dropping
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
